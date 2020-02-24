@@ -5,15 +5,20 @@ body{
 
 
 
-
-
 #myButton{
 
     padding: 1em;
-    color:white;
+    color:
+    white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
-    margin-bottom: 20%;
+   cursor: pointer;
+    background-color:
+    #2d3131;
+    border: solid
+    #f0f8ff00;
+    border-radius: 15px;
+    
 
     
 }
@@ -30,11 +35,41 @@ body{
 
 p{
 
-    color:white;
+    color:
+    white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 1em;
     padding: 1.2em;
     border-radius: 30px;
-    background-color: rgb(0, 92, 92);
+    background-color:
+    rgb(0, 83, 83);
+    text-align: center;
+    width: 25%;
+  
+    margin-top: 3%;
+}
+
+#blockToDisplay{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    background-color:
+    #fff;
+    width: 30%;
+    border-radius: 20px;
+    padding: 2%;
+    color: black;
+    font-family: arial;
+    font-weight: 900;
+ 
+    line-height: 30px;
+    color:
+    #2d3131;
+   
+    margin-top: 3%;
+
+
+
 }
