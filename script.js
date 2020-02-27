@@ -3,7 +3,7 @@
 
 const displayBlockElem = document.getElementById("blockToDisplay");
 
-function callRandomCitation() {
+function generer_citation() {
    //le symbole $ signifie jquery :) 
   $.ajax({
     method: "GET",
@@ -18,10 +18,10 @@ function callRandomCitation() {
    
 }
 
-callRandomCitation();
+generer_citation();
 //click du button
 const citationButton = document.getElementById("myButton");
-citationButton.addEventListener("click", callRandomCitation);
+citationButton.addEventListener("click", generer_citation);
 
 
 
