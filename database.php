@@ -13,7 +13,7 @@ ini_set('display_errors', 'On');
 function connectdb(){
 define('DB_NAME', 'kaamelot');
 define('DB_USER', 'root');
-define('DB_PASSWORD', 'origins');
+define('DB_PASSWORD', '');
 define('DB_HOST', '127.0.0.1');
 define('DB_TABLE', 'citation_kaamelot');
 
